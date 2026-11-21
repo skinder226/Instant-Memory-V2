@@ -2,7 +2,7 @@
 from typing import Any
 from datetime import datetime, timezone
 
-from .schema import OutboxSchema
+from ..schema import OutboxSchema
 
 
 class OutboxFactory:

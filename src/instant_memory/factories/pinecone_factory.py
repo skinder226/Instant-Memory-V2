@@ -2,7 +2,7 @@
 from typing import Any
 from datetime import datetime
 
-from .schema import MemorySchema
+from ..schema import MemorySchema
 
 
 class PineconeFactory:

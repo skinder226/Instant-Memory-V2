@@ -4,13 +4,13 @@ from pprint import pprint
 
 from dotenv import load_dotenv
 
-from instant_memory.pinecone_factory import PineconeFactory
+from instant_memory.factories.pinecone_factory import PineconeFactory
 from .llm import Extractor
 from instant_memory.memory_service import MemoryService
 from rich import print
 from .lib.database import DatabaseManager
-from .embedding_factory import EmbeddingFactory
-from .graph_factory import GraphFactory
+from .factories.embedding_factory import EmbeddingFactory
+from .factories.graph_factory import GraphFactory
 
 load_dotenv()
 

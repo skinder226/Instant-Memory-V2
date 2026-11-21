@@ -3,7 +3,7 @@ from copy import deepcopy
 from uuid import uuid4
 from datetime import datetime, timezone
 
-from .schema import MemorySchema
+from ..schema import MemorySchema
 
 
 class MemoryFactory:
